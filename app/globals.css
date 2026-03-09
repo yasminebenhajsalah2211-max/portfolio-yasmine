@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F6E6E2;
+  --foreground: #2b2b2b;
+
+  --nectarine: #D7897F;
+  --peach: #F9B95C;
+  --mint: #96C7B3;
+  --lagoon: #6398A9;
+}
+
+body {
+  color: var(--foreground);
+
+  background:
+    radial-gradient(circle at 20% 20%, #F9B95C25, transparent 40%),
+    radial-gradient(circle at 80% 30%, #96C7B325, transparent 40%),
+    radial-gradient(circle at 60% 80%, #6398A925, transparent 40%),
+    var(--background);
+
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}

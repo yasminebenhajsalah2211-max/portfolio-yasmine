@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Personal Website Template System
 
 Welcome to the **Personal Website Template System**! This project provides a flexible and highly customizable personal website template system tailored for two types of users: **Job Seekers** and **Researchers**. With interactive guidance, easy configuration, and professional design, you can quickly build a unique personal website that meets your needs.
@@ -127,3 +128,7 @@ This project is open-source and available under the [MIT License](https://openso
 ---
 
 With this template system, creating a professional personal website has never been easier. Start building your website today! 🚀
+=======
+# portfolio-yasmine
+Personal portfolio showcasing projects in embedded systems, IoT and data engineering
+>>>>>>> 02f412cb33bf0c7ed15cb5e35a79420df1aa9d32

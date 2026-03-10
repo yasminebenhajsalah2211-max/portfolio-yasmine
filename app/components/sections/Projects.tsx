@@ -41,7 +41,7 @@ const projects: Project[] = [
     title: "Modélisation des mécanismes de neuromodulation du système limbique",
     description:
       "Projet de recherche : modélisation des interactions dopamine / sérotonine et de leur influence sur les comportements émotionnels (peur, dépression, stress). Utilisation de paradigmes d’apprentissage par renforcement et de règles de plasticité (Hebb) pour simuler l’apprentissage adaptatif.",
-    period: "Oct. 2024 – Aujourd’hui",
+    period: "Oct. 2024 – avril 2025",
     image: "/project/neuromodulation.png",
     skills: ["Apprentissage par renforcement", "Modélisation", "Neurosciences", "Plasticité synaptique"],
     link: "#"

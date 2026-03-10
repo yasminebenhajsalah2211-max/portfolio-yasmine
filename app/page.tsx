@@ -8,9 +8,9 @@ import CourseTimeline from "./components/education/CourseTimeline"
 import Navbar from "./components/common/Navbar"
 import MySkills from './components/sections/MySkills'
 import Experience from './components/sections/Experience'
-import { Box } from '@mui/material'
+import Engagement from './components/sections/Engagement'
 import Projects from './components/sections/Projects'
-
+import { Box } from '@mui/material'
 
 // Step 2: Choose your template version
 // For Researcher Template: uncomment these imports
@@ -53,7 +53,7 @@ export default function Home() {
         
         {/* Projects section - Showcase your projects in /components/sections/Projects */}
         <Projects />
-        
+        <Engagement />
         
       </main>
     </>

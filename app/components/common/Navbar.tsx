@@ -22,7 +22,8 @@ const navItems = [
   { name: "Compétences", href: "#skills" },
   { name: "Formation", href: "#education" },
   { name: "Expérience", href: "#experience" },
-  { name: "Projets", href: "#projects" }
+  { name: "Projets", href: "#projects" },
+  { name: "Engagement", href: "#engagement" }  
 ]
 
 export default function Navbar() {

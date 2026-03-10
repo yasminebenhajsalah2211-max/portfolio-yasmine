@@ -13,11 +13,10 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"></link>
-// TODO: Please update the title and description with your personal information
+
 export const metadata: Metadata = {
-  title: "Portfolio Template",
-  description: "A modern portfolio template for developers and designers",
+  title: "Yasmine Ben Haj Salah | Portfolio",
+  description: "Portfolio de Yasmine Ben Haj Salah – systèmes embarqués, IoT, data et intelligence artificielle.",
 };
 
 export default function RootLayout({
@@ -26,16 +25,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr" suppressHydrationWarning={true}>
       <head>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            if (typeof window !== 'undefined') {
-              window.history.scrollRestoration = 'manual';
-              window.scrollTo(0, 0);
-            }
-          `
-        }} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (typeof window !== 'undefined') {
+                window.history.scrollRestoration = 'manual';
+                window.scrollTo(0, 0);
+              }
+            `,
+          }}
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}

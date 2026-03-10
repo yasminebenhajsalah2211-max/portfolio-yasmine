@@ -17,13 +17,13 @@ export default function Hero() {
           <Image
             className="rounded-full"
             src="/taswerty6.png"
-            alt="Photo de Yasmine Ben Haj Salah"
+            alt="Photo de Yasmine BEN HAJ SALAH"
             width={150}
             height={120}
             priority
           />
 
-          <h1 className="text-4xl font-bold">Yasmine Ben Haj Salah</h1>
+          <h1 className="text-4xl font-bold">Yasmine BEN HAJ SALAH</h1>
 
           <p className="text-lg text-foreground/80 font-[family-name:var(--font-geist-mono)]">
             Ingénieure en électronique embarquée • Data • IA appliquée
